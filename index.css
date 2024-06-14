@@ -1,0 +1,67 @@
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: CursedTimer;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 575px;
+    height: 385px;
+    justify-content: space-around;
+    background-color: #1B244A;
+    margin: 40px auto 0;
+}
+
+.team-titles {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.team-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score-box {
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #080001;
+    text-align: center;
+}
+
+.score {
+    font-family: CursedTimer;
+    color: #f94f6d;
+    font-size: 90px;
+}
+
+.score-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    width: 155px;
+    height: 45px;
+}
+
+.btn {
+    border: #9aabd8 2px solid;
+    width: 45px;
+    height: 45px;
+    background-color: #1B244A;
+    font-family: CursedTimer;
+    color: #9aabd8;
+    font-size: 18px;
+    border-radius: 5px;
+}
